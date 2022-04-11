@@ -17,7 +17,7 @@ def disp (x, N):
         d = d + (x[i]-M)*(x[i]-M)
     return d / N
 
-# Серднее
+# Среднее
 def sredn(x, N):
     return np.sqrt(disp(x, N))
 
